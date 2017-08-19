@@ -37,7 +37,8 @@ $mysqli->close();
 function getSQLResultSet($commando){
  
  
-  $mysqli = new mysqli("localhost", "root", "1234", "finalget");
+ $mysqli = new mysqli("rmspavs8mpub7dkq.chr7pe7iynqr.eu-west-1.rds.amazonaws.com", "q38dpb0unfwgo9ca", "o904u8n2xhtwpbdm", "s3my1t0wrg30n21j");
+
 /* check connection */
 if ($mysqli->connect_errno) {
     printf("Connect failed: %s\n", $mysqli->connect_error);
