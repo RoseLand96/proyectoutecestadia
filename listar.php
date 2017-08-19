@@ -21,4 +21,4 @@ print json_encode($rows);
 mysqli_close($con);
 }
 ?>
-© 2017 GitHub, I
+
